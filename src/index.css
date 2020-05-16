@@ -235,7 +235,7 @@ Cocktails List
   margin: 0 auto;
   max-width: var(--fullWidth);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(370.8px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 1.8rem;
   row-gap: 1.8rem;
   /* align-items: start; */
@@ -349,4 +349,3 @@ Cocktail
     padding-top: 0;
   }
 }
-
