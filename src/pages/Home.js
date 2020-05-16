@@ -12,7 +12,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = React.useState("a");
 
   //Cocktails state
-  const [cocktails, setCocktails] = React.useState(false);
+  const [cocktails, setCocktails] = React.useState([]);
 
   //Using empty array[] as second array make to run useEffect ony ones when component mounts
   React.useEffect(() => {
